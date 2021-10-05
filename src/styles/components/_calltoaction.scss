@@ -1,0 +1,47 @@
+.cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3.2rem;
+    margin-bottom: 15rem;
+
+    &__title {
+        max-width: 40rem;
+        width: 100%;
+        flex-shrink: 0;
+    }
+
+    &__split {
+        height: 0.1rem;
+        width: 100%;
+        background-color: hsl(245, 10%, 22%, 15%);
+        border:0;
+    }
+}
+
+// `lg` applies to medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    .cta {
+        &__title {
+            max-width: 26rem;
+        }
+    }
+}
+
+// `lg` applies to medium devices (tablets, less than 992px)
+@media (max-width: 767.98px) {
+    .cta {
+        gap: inherit;
+        flex-direction: column;
+        &__title {
+            max-width: inherit;
+            width: 100%;
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        &__split {
+            display: none;
+        }
+    }
+}

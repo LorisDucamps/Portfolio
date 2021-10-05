@@ -1,0 +1,95 @@
+.btn {
+    display: flex;
+    height: 4.8rem;
+    line-height: 4.8rem;
+    font-size: 1.2rem;
+    color: inherit;
+    flex-shrink: 0;
+    background-color: inherit;
+    border: 0.1rem solid transparent;
+    text-transform: uppercase;
+
+    // li:last-child &__link {
+    //     padding-right: 0;
+    // }
+
+    &__link {
+        color: $grayish-dark-blue;
+        letter-spacing: 0.2rem;
+        padding: 0 2rem;
+
+        &.router-link-active {
+            color: $slightly-cyan;
+        }
+
+        svg {
+            height: 2.4rem;
+            width:2.4rem;
+            fill:$white;
+        }
+    }
+    
+    &__social {
+        display: flex;
+        align-items: center;
+        padding:0 0.8rem;
+    }
+
+    &__logo {
+        height:100%;
+        padding: 0;
+    }
+
+    &__primary {
+        padding: 0;
+        color: $white;
+        background-color: $dark-blue;
+
+        &:hover {
+            background-color: $slightly-cyan;
+
+            .btn__inner__img {
+                background-image: url(../../assets/icons/arrow-hover.svg);
+            }
+        }
+
+        .btn__inner__img {
+            height: 4.8rem;
+            width: 4.8rem;
+            margin: -0.1rem 0 -0.1rem -0.1rem;
+            background-color: hsl(0, 0%, 0%, 10%);
+            background-image: url(../../assets/icons/arrow-normal.svg);
+            background-position: center center;
+            background-repeat: no-repeat;
+        }
+
+        .btn__inner__text {
+            height: 4.6rem;
+            padding: 0 3.2rem;
+            letter-spacing: 0.2rem;
+        }
+
+    }
+
+    &__secondary {
+        padding: 0 3.2rem;
+        border: 0.1rem solid $grayish-dark-blue;
+        letter-spacing: 0.2rem;
+
+        &:hover {
+            color: $white;
+            background-color: $grayish-dark-blue;
+        }
+    }
+
+    &__link-text {
+        display: inline-flex;
+        height: initial;
+        padding: 0;
+        text-transform: initial;
+        font-size: 1.6rem;
+        line-height: initial;
+        color: $slightly-cyan;
+        text-decoration: underline;
+    }
+}

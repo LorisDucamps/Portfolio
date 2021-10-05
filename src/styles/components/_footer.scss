@@ -1,0 +1,20 @@
+.footer {
+    height: 8rem;
+    background-color: $grayish-dark-blue;
+
+    .logo {
+        margin-right: 2.8rem;
+    }
+
+    nav {
+        a {
+            color: $white;
+
+            &.router-link-active {
+                color: $white;
+            }
+        }
+    }
+
+
+}

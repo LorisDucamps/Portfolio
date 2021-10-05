@@ -1,0 +1,26 @@
+// FLEX
+// Utilities for controlling how flex items both grow and shrink
+
+.relative {
+    position: relative;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.w-100 {
+    width: 100%;
+}

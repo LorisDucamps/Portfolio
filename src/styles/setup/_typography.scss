@@ -1,0 +1,21 @@
+// Calling local fonts from the App.vue file
+// Ibarra-Real-Nova (regular / bold)
+// Public-Sans (regular)
+
+
+
+h1 {
+    font-size: $h1-font-size;
+    font-family: $font-family-serif-bold;
+    letter-spacing: -0.036rem;
+}
+
+h2 {
+    font-size: $h2-font-size;
+    font-family: $font-family-serif-bold;
+}
+
+h3 {
+    font-size: $h3-font-size;
+    font-family: $font-family-serif-regular;
+}

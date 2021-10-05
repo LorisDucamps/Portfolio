@@ -1,0 +1,57 @@
+.contact {
+
+    .row {
+        padding: 4.8rem 0;
+        border-top: 0.1rem solid hsl(245, 10%, 22%, 15%);
+    }
+
+    svg {
+        fill: $grayish-dark-blue;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__form__group {
+        margin-bottom: 2.4rem;
+
+        label {
+            display: inline-block;
+            margin-bottom: 1.4rem;
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
+
+        input,
+        textarea {
+            display: block;
+            width: 100%;
+            padding: 1.6rem;
+            font-size: 1.3rem;
+            color: $grayish-dark-blue;
+            border: 0.1rem solid transparent;
+            background-color: hsl(245, 10%, 22%, 10%);
+            font-family: $font-family-sans-serif-regular;
+
+            &::placeholder {
+                color: hsl(245, 10%, 22%, 40%);
+            }
+
+            &:focus,
+            &:focus-visible {
+                border: 0.1rem solid $slightly-cyan;
+                outline: inherit;
+            }
+        }
+
+        input {}
+
+        textarea {}
+    }
+
+    button {
+        align-self: flex-start;
+    }
+}
