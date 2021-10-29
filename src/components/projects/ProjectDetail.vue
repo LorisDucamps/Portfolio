@@ -10,7 +10,7 @@
                     <p class="type">{{ type }}</p>
                     <!-- Architecture du projet : HTML CSS JAVASCRIPT -->
                     <p class="architecture">{{ architecture }}</p>
-                    <base-button link type="btn btn__secondary" target="_blank" to="">{{button}}</base-button>
+                    <base-button link type="btn btn__secondary" target="_blank" :to=url>{{button}}</base-button>
                 </div>
             </div>
             <div class="col-xl-7 offset-xl-1">
@@ -70,6 +70,10 @@ import CallToActionContact from '../cta/CallToActionContact.vue';
             },
             architecture() {
                 return this.projectSelected.detail.architecture;
+            },
+            url() {
+                    return this.projectSelected.detail.url;
+                
             },
             button() {
                 return this.projectSelected.detail.button;

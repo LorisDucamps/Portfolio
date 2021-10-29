@@ -4,6 +4,7 @@
     :key="about.id" 
     :id="about.id"
     :project="about.project"
+    :pair="about.pair"
     :about="about.about"
     :title="about.title" 
     :description="about.description"

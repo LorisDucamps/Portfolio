@@ -1,5 +1,4 @@
 .intro {
-    margin-bottom: 15rem;
 
     &__background {
         min-height: 60rem;
@@ -55,26 +54,3 @@
 
 // `xxl` applies to x-large devices (large desktops, less than 1400px)
 @media (max-width: 1399.98px) {}
-
-
-
-// @media screen and (max-width: 75em) {
-//     h1 {
-//         font-size: 4rem;
-//     }
-// }
-
-// @media screen and (max-width: 64em) {}
-
-// @media screen and (max-width: 48em) {
-//     .intro {
-//         &__wrapper__content {
-//             position: inherit;
-//         }
-
-//         &__content {
-//             padding: inherit;
-//         }
-//     }
-
-// }

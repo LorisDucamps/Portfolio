@@ -1,7 +1,7 @@
 <template>
-    <Intro />
-    <About />
-    <CallToActionContact />
+  <Intro />
+  <About />
+  <CallToActionContact />
 </template>
 
 <script>
@@ -17,3 +17,6 @@
     }
   }
 </script>
+
+<style>
+</style>

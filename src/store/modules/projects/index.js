@@ -9,6 +9,7 @@ export default {
             projects: [{
                     id: '0',
                     project: true,
+                    pair: false,
                     title: 'Manage',
                     description: 'This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider.',
                     nameUrl: 'manage',
@@ -22,12 +23,14 @@ export default {
                         imgPreviewTwo: require('@/assets/images/projects/manage/manage-preview-2.jpg'),
                         type: 'Interaction Design / Front End Development',
                         architecture: 'HTML / CSS / JS',
+                        url: 'http://captait.cluster031.hosting.ovh.net/',
                         button: 'visite website'
                     }
                 },
                 {
                     id: '1',
                     title: 'Bookmark',
+                    pair: true,
                     description: 'This was a small project which mostly consisted of HTML and CSS. I built a fully-responsive landing page. The only JavaScript this project required was to enable the toggling of the mobile navigation.',
                     nameUrl: 'bookmark',
                     img: require('@/assets/images/projects/bookmark/bookmark.jpg'),
@@ -40,6 +43,7 @@ export default {
                         imgPreviewTwo: require('@/assets/images/projects/bookmark/bookmark-preview-2.jpg'),
                         type: 'Interaction Design / Front End Development',
                         architecture: 'HTML / CSS / JS',
+                        url: 'test.com',
                         button: 'visite website'
                     }
                 }

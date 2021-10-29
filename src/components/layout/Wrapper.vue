@@ -1,4 +1,5 @@
 <template>
+    <!-- CONDITIONNER UNE CLASSE EN FONCTION DE LA ROUTE -->
     <div class="layout">
         <router-view></router-view>
     </div>
@@ -7,9 +8,15 @@
 
 <script>
     export default {
-       
+
     }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+    .layout {
+        display: flex;
+        flex-direction: column;
+        gap: 15rem;
+        margin-bottom: 15rem;
+    }
 </style>
